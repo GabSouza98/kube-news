@@ -17,6 +17,8 @@ const metricsMiddleware = promBundle({
       }
 });
 
+//teste push automatico
+
 app.use(middlewares.countRequests)
 app.use(metricsMiddleware)
 app.use(config.middlewares.healthMid);
